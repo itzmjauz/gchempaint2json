@@ -18,5 +18,9 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/nathan7/gchempaint2json/issues"
+  },
+  "dependencies": {
+    "xml2js": "~0.2.8",
+    "dict": "~1.4.0"
   }
 }
