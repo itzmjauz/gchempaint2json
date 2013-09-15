@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<gcp:chemistry xmlns:gcp="http://www.nongnu.org/gchempaint" creation="09/15/2013" revision="09/15/2013">
+  <generator>GChemPaint 0.14.2</generator>
+  <theme name="GChemPaint" bond-length="140" bond-angle="120" bond-dist="5" bond-width="1" arrow-length="200" arrow-head-a="6" arrow-head-b="8" arrow-head-c="4" arrow-dist="5" arrow-width="1" arrow-padding="16" hash-width="1" hash-dist="2" stereo-bond-width="5" zoom-factor="4" padding="2" stoichiometry-padding="1" object-padding="16" sign-padding="8" charge-sign-size="9" font-family="Bitstream Vera Sans" font-style="normal" font-weight="normal" font-variant="normal" font-stretch="normal" font-size="12288" text-font-family="Bitstream Vera Serif" text-font-style="normal" text-font-weight="normal" text-font-variant="normal" text-font-stretch="normal" text-font-size="12288"/>
+  <molecule id="m1">
+    <atom id="a1" element="C">
+      <position x="14" y="224"/>
+    </atom>
+    <atom id="a2" element="C">
+      <position x="14" y="84"/>
+    </atom>
+    <atom id="a3" element="C">
+      <position x="135.24355652982138" y="14"/>
+    </atom>
+    <atom id="a4" element="C">
+      <position x="256.48711305964281" y="84"/>
+    </atom>
+    <atom id="a5" element="C">
+      <position x="256.48711305964281" y="224"/>
+    </atom>
+    <atom id="a6" element="C">
+      <position x="135.24355652982143" y="294"/>
+    </atom>
+    <bond id="b1" order="1" begin="a1" end="a2"/>
+    <bond id="b2" order="2" begin="a2" end="a3"/>
+    <bond id="b3" order="1" begin="a3" end="a4"/>
+    <bond id="b4" order="2" begin="a4" end="a5"/>
+    <bond id="b5" order="1" begin="a5" end="a6"/>
+    <bond id="b6" order="2" begin="a6" end="a1"/>
+  </molecule>
+</gcp:chemistry>

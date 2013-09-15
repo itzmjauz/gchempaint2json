@@ -1,0 +1,11 @@
+{
+  "asi": true,
+  "laxcomma": true,
+  "laxbreak": true,
+  "newcap": false,
+  "strict": true,
+  "globalstrict": true,
+  "node": true,
+  "maxcomplexity": 10,
+  "unused": true
+}

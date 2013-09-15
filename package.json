@@ -1,0 +1,22 @@
+{
+  "name": "gchempaint2json",
+  "version": "0.0.0",
+  "description": "convert gchempaint files to a JSON representation",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nathan7/gchempaint2json.git"
+  },
+  "bin": "./cli.js",
+  "keywords": [
+    "gchempaint",
+    "xml",
+    "json",
+    "chemistry"
+  ],
+  "author": "Nathan Zadoks",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nathan7/gchempaint2json/issues"
+  }
+}
