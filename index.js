@@ -7,22 +7,23 @@ function convert(xml) {
   var ret
   parseXml(xml, { async: false }, function(err, doc) {
     if (err) throw err
-    ret = doc['gcp:chemistry'].molecule.map(function(mol) {
-      var atoms = []
-        , atomDict = new Dict()
+    var atoms = []
+      , bonds = []
+      , i = 0
+    ret = { nodes: atoms, links: bonds }
+
+    doc['gcp:chemistry'].molecule.forEach(function(mol) {
+      var atomDict = new Dict()
         , findAtom = atomDict.get
-        , bonds = []
-        , i = 0
+
       mol.atom.forEach(function(atom) {
         atoms.push({ element: atom.$.element, position: atom.position[0].$ })
         atomDict.set(atom.$.id, i++)
       })
 
       mol.bond.forEach(function(bond) {
-        bonds.push({ order: bond.$.order, a: findAtom(bond.$.begin), b: findAtom(bond.$.end) })
+        bonds.push({ count: bond.$.order, source: findAtom(bond.$.begin), target: findAtom(bond.$.end) })
       })
-
-      return { atoms: atoms, bonds: bonds }
     })
   })
   return ret
