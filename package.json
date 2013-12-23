@@ -1,6 +1,6 @@
 {
   "name": "gchempaint2json",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "convert gchempaint files to a JSON representation",
   "main": "index.js",
   "repository": {
