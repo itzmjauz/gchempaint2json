@@ -17,12 +17,13 @@ function convert(xml) {
         , findAtom = atomDict.get
 
       mol.atom.forEach(function(atom) {
-        atoms.push({ element: atom.$.element, position: atom.position[0].$ })
+        var position = atom.position[0].$ 
+        atoms.push({ element: atom.$.element, position: { x: +position.x, y: +position.y } })
         atomDict.set(atom.$.id, i++)
       })
 
       mol.bond.forEach(function(bond) {
-        bonds.push({ count: bond.$.order, source: findAtom(bond.$.begin), target: findAtom(bond.$.end) })
+        bonds.push({ count: +bond.$.order, source: findAtom(bond.$.begin), target: findAtom(bond.$.end) })
       })
     })
   })
