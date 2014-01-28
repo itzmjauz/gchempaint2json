@@ -1,0 +1,106 @@
+{
+  "nodes": [
+    {
+      "element": "C",
+      "x": 14,
+      "y": 224
+    },
+    {
+      "element": "C",
+      "x": 620.217782649107,
+      "y": 14
+    },
+    {
+      "element": "C",
+      "x": 14,
+      "y": 84
+    },
+    {
+      "element": "C",
+      "x": 135.24355652982138,
+      "y": 14
+    },
+    {
+      "element": "C",
+      "x": 256.48711305964275,
+      "y": 84
+    },
+    {
+      "element": "C",
+      "x": 256.48711305964275,
+      "y": 224
+    },
+    {
+      "element": "C",
+      "x": 135.24355652982138,
+      "y": 294
+    },
+    {
+      "element": "C",
+      "x": 377.7306695894641,
+      "y": 14
+    },
+    {
+      "element": "C",
+      "x": 498.9742261192855,
+      "y": 84
+    },
+    {
+      "element": "N",
+      "x": 498.9742261192855,
+      "y": 224
+    }
+  ],
+  "links": [
+    {
+      "count": 1,
+      "source": 0,
+      "target": 2
+    },
+    {
+      "count": 1,
+      "source": 8,
+      "target": 1
+    },
+    {
+      "count": 2,
+      "source": 2,
+      "target": 3
+    },
+    {
+      "count": 1,
+      "source": 3,
+      "target": 4
+    },
+    {
+      "count": 2,
+      "source": 4,
+      "target": 5
+    },
+    {
+      "count": 1,
+      "source": 5,
+      "target": 6
+    },
+    {
+      "count": 2,
+      "source": 6,
+      "target": 0
+    },
+    {
+      "count": 1,
+      "source": 4,
+      "target": 7
+    },
+    {
+      "count": 1,
+      "source": 7,
+      "target": 8
+    },
+    {
+      "count": 1,
+      "source": 8,
+      "target": 9
+    }
+  ]
+}
