@@ -18,7 +18,7 @@ function convert(xml) {
 
       mol.atom.forEach(function(atom) {
         var position = atom.position[0].$ 
-        atoms.push({ element: atom.$.element, position: { x: +position.x, y: +position.y } })
+        atoms.push({ element: atom.$.element, x: +position.x, y: +position.y })
         atomDict.set(atom.$.id, i++)
       })
 
